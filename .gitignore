@@ -1,0 +1,63 @@
+# NDB CSV Processor - GitHub Repository
+# This repo contains only the processing code, not the authentication modules
+
+# Exclude login handling modules (private)
+auth.py
+device_id.py
+login.py
+registry.py
+spreadsheet.py
+
+# Exclude build files
+dist/
+build/
+*.exe
+installer/
+backup/
+
+# Exclude temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude log files
+*.log
+
+# Exclude input files (may contain sensitive data)
+Input/
+input/
+*.csv
+*.xlsx
+*.xlsb
+
+# Exclude output files
+output/
+Output/
+# *.txt  # Commented out to allow README.md, LICENSE.txt, requirements.txt
+# *.csv  # Commented out to allow data files if needed
+
+# Keep only these files for GitHub:
+# - main_processor.py
+# - ndb_processor_gui.py (will have import errors without login modules)
+# - requirements.txt
+# - README.md
+# - LICENSE.txt
+# - HFH.ico 
