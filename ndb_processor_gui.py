@@ -443,7 +443,7 @@ class NDBProcessorGUI:
             
             dpg.add_spacer(height=10)
             dpg.add_text("[*] FITUR:", color=(234, 235, 208))
-            dpg.add_text("- Transformasi data sesuai VBA Module1.bas logic")
+            dpg.add_text("- Transformasi data dengan logic algoritma advanced")
             dpg.add_text("- Fixed_Ant_Size mapping berdasarkan CELL_SYSTEM_INFO")
             dpg.add_text("- Class_Cell extraction dari CELL_NAME (L18_A01, 5G21_B02, dll)")
             dpg.add_text("- Filter berdasarkan Region (multiple selection)")
@@ -462,6 +462,12 @@ class NDBProcessorGUI:
             dpg.add_text("- Pastikan file CSV valid dan tidak corrupt")
             dpg.add_text("- Cek permission write di output directory")
             dpg.add_text("- Lihat log untuk detail error")
+            
+            dpg.add_spacer(height=15)
+            dpg.add_text("[*] DEVELOPER:", color=(234, 235, 208))
+            dpg.add_text("Author: Hadi Fauzan Hanif", color=(218, 108, 108))
+            dpg.add_text("Email: hadifauzanhanif@gmail.com", color=(160, 160, 160))
+            dpg.add_text("Version: 1.0.0", color=(160, 160, 160))
             
             dpg.add_spacer(height=15)
             dpg.add_button(label="Tutup", callback=lambda: dpg.delete_item("help_window"))

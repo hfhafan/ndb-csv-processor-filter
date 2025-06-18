@@ -9,9 +9,9 @@ Email: hadifauzanhanif@gmail.com
 ## Features
 
 ### Core Processing
-- **Data Transformation**: Advanced data transformation following VBA Module1.bas logic
-- **Fixed_Ant_Size Mapping**: Intelligent antenna size mapping based on CELL_SYSTEM_INFO
-- **Class_Cell Extraction**: Automatic cell classification from CELL_NAME patterns (L18_A01, 5G21_B02, etc.)
+- **Data Transformation**: Advanced algorithmic transformation with intelligent mapping rules
+- **Fixed_Ant_Size Mapping**: Dynamic antenna size calculation based on cellular technology type
+- **Class_Cell Extraction**: Pattern-based cell classification from naming conventions (L18_A01, 5G21_B02, etc.)
 - **Multiple Output Formats**: Generate 3 different output files from single input
 
 ### Output Files
@@ -33,17 +33,32 @@ Email: hadifauzanhanif@gmail.com
 ## Technical Specifications
 
 ### Transformation Logic
-- **GSM900**: Antenna size 0.03
-- **LTE1800**: Antenna size 0.095
-- **LTE2100**: Antenna size 0.085
-- **LTE900**: Antenna size 0.1
-- **DCS1800**: Antenna size 0.02
-- **5G18**: Antenna size 0.07
-- **5G21**: Antenna size 0.065
-- **5G_26G**: Antenna size 0.065
-- **L18**: Antenna size 0.09
-- **L21**: Antenna size 0.08
-- **INDOOR Sites**: Antenna size divided by 4
+
+#### Antenna Size Calculation Algorithm
+The processor uses intelligent mapping based on cellular technology specifications:
+
+**Technology-Based Mapping:**
+- **GSM900**: 0.03 (legacy 2G technology)
+- **LTE1800**: 0.095 (4G LTE band 3)
+- **LTE2100**: 0.085 (4G LTE band 1)
+- **LTE900**: 0.1 (4G LTE band 8)
+- **DCS1800**: 0.02 (2G digital cellular)
+- **5G18**: 0.07 (5G NR band n3)
+- **5G21**: 0.065 (5G NR band n1)
+- **5G_26G**: 0.065 (5G mmWave)
+- **L18**: 0.09 (LTE variant)
+- **L21**: 0.08 (LTE variant)
+
+**Special Conditions:**
+- **INDOOR Sites**: Antenna size automatically reduced by 75% (divided by 4)
+- **Default Value**: 0.08 for unrecognized technologies
+
+#### Cell Classification Algorithm
+Advanced pattern recognition for cell naming:
+- Extracts technology prefix (L18, L21, 5G18, 5G21)
+- Identifies sector designation (A, B, C, D)
+- Captures numeric identifiers
+- Returns complete classification string (e.g., "L18_A01", "5G21_B03")
 
 ### Column Mapping
 The processor intelligently maps and filters columns according to predefined rules:
