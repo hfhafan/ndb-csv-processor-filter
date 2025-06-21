@@ -91,7 +91,7 @@ The processor intelligently maps and filters columns according to predefined rul
 ## Installation
 
 ### Option 1: Download Ready-to-Use Application (Recommended)
-**[📥 Download NDB CSV Processor v1.0.0](https://bit.ly/3ZFF8Tw)**
+**[📥 Download NDB CSV Processor v2.0.0](https://bit.ly/3ZFF8Tw)**
 1. Download the ZIP file from the link above
 2. Extract to your preferred location
 3. Run the executable directly
