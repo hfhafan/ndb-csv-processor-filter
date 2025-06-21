@@ -1,0 +1,19 @@
+# NDB CSV Processor - Core Dependencies
+# These are the minimal requirements for the processing functionality
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# GUI framework
+dearpygui>=1.9.0
+
+# Optional: High-performance data processing
+polars>=0.20.0
+
+# Standard library modules (no installation needed)
+# - os, sys, time, pathlib
+# - tkinter (included with Python)
+
+# Note: This GitHub version excludes authentication-related dependencies
+# Full version requires additional modules for login handling 
