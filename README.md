@@ -30,6 +30,23 @@ Email: hadifauzanhanif@gmail.com
 
 ## Features
 
+## Preview
+- Main menu:
+- 
+  ![Main Menu](https://github.com/user-attachments/assets/948735ca-91f3-4be7-b3c3-be3a1f26c30d)
+- Filter Region or Site:
+- 
+  ![List Filter Region and Site](https://github.com/user-attachments/assets/3e75d9c3-e889-40a7-b38d-271e5ec30978)
+- Setting kolom output:
+- 
+  ![Setting kolom](https://github.com/user-attachments/assets/7ecbd2ca-5277-447e-ab46-5fd0a546a367)
+- Help:
+- 
+  ![help](https://github.com/user-attachments/assets/18ec32b6-4c4b-4e98-beb7-e145aee17181)
+
+
+
+
 ### Core Processing
 - **Data Transformation**: Advanced algorithmic transformation with intelligent mapping rules
 - **Fixed_Ant_Size Mapping**: Dynamic antenna size calculation based on cellular technology type
