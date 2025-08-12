@@ -9,6 +9,13 @@
 
 A powerful CSV data processor designed for Network Database (NDB) files with transformation capabilities and multiple output formats.
 
+## ☕ Traktir Kopi
+
+Bantu aku tetap semangat bikin fitur & update baru. Satu cangkir kopi dari kamu = satu langkah fitur berikutnya. 🙌
+
+[![Traktir Kopi di Saweria](https://img.shields.io/badge/click_Untuk_Traktir%20Kopi-Saweria-orange?logo=buymeacoffee&logoColor=white)](https://saweria.co/HDfauzan)
+
+
 ## ⚠️ Important Notice
 
 **This repository requires additional login modules to run.** Some authentication modules are intentionally not included for security reasons. See [MISSING_MODULES.md](MISSING_MODULES.md) for details on required modules or how to bypass authentication.
